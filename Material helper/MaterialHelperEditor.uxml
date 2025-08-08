@@ -1,0 +1,20 @@
+
+<UXML xmlns:ui='UnityEngine.UIElements'>
+  <ui:VisualElement style='flex-grow: 1; padding: 10px;'>
+    <ui:Label text='VMT to Unity Material Converter' style='font-size: 20px; -unity-font-style: bold; margin-bottom: 15px;' />
+    <ui:Label text='Select VMT Folder:' />
+    <ui:VisualElement style='flex-direction: row; margin-bottom: 10px;'>
+      <ui:TextField name='vmt-path-field' label='' style='flex-grow: 1;' />
+      <ui:Button name='select-folder-button' text='Select Folder' style='margin-left: 5px;' />
+    </ui:VisualElement>
+    <ui:Button name='start-conversion-button' text='Start Conversion' style='margin-bottom: 10px;' />
+    <ui:VisualElement style='flex-direction: row; margin-bottom: 10px;'>
+      <ui:ProgressBar name='progress-bar' title='Progress' style='flex-grow: 1;' />
+      <ui:Button name='clear-log-button' text='Clear Log' style='margin-left: 5px;' />
+    </ui:VisualElement>
+    <ui:Label text='Log:' style='-unity-font-style: bold;' />
+    <ui:ScrollView name='log-scroll-view' style='flex-grow: 1; border-color: #555; border-width: 1px; padding: 5px; background-color: #333;'>
+      <ui:Label name='log-label' text='' style='white-space: pre-wrap; color: #aaa;'/>
+    </ui:ScrollView>
+  </ui:VisualElement>
+</UXML>

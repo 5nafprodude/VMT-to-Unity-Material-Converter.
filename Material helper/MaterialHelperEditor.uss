@@ -1,0 +1,33 @@
+
+.unity-button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+.unity-button:hover {
+    background-color: #45a049;
+}
+.unity-button:disabled {
+    background-color: #888;
+    color: #bbb;
+}
+.unity-text-field__input {
+    background-color: #444;
+    color: #ccc;
+    border-radius: 5px;
+}
+.unity-label {
+    color: #eee;
+}
+.unity-progress-bar__title {
+    color: #ccc;
+}
+.unity-progress-bar__container {
+    background-color: #444;
+    border-radius: 5px;
+    height: 25px;
+}
+.unity-progress-bar__progress {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
